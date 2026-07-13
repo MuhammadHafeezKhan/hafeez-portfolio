@@ -4,7 +4,7 @@ A premium, responsive **Flutter Web Portfolio** showcasing my experience, projec
 
 Built with Flutter Web using a modern dark UI, smooth animations, responsive layouts, and performance-focused architecture to deliver a polished experience across all devices.
 
-🌐 **Live Demo:** https://your-domain.com
+🌐 **Live Demo:** https://hafeezkhan-dev.vercel.app/
 
 👨‍💻 **Developer:** Hafeez Khan
 
@@ -95,20 +95,6 @@ build/web/
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots or GIFs of your portfolio here.
-
-Example:
-
-```
-assets/screenshots/home.png
-assets/screenshots/projects.png
-assets/screenshots/mobile.png
-```
-
----
-
 # 📄 License
 
 This project is licensed under the MIT License.
@@ -121,7 +107,8 @@ This project is licensed under the MIT License.
 
 Senior Flutter Developer & Team Lead
 
-- 🌐 Portfolio: https://your-domain.com
-- 💼 LinkedIn: https://linkedin.com/in/your-linkedin
-- 🐙 GitHub: https://github.com/your-github
-- 📧 Email: your@email.com
+- 🌐 Portfolio: https://hafeezkhan-dev.vercel.app/
+- 💼 LinkedIn: https://www.linkedin.com/in/hafeezflutter/
+- 💼 LinkedIn: https://www.linkedin.com/in/hafeezflutter/
+- 🐙 GitHub: https://github.com/MuhammadHafeezKhan/
+- 📧 Email: hafeez8759@gamil.com
