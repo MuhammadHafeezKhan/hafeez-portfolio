@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0D1117">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="format-detection" content="telephone=no">
+
+  <title>Hafeez Khan — Senior Flutter Developer</title>
+  <meta
+    name="description"
+    content="Hafeez Khan, Senior Flutter Developer & Team Lead with 5+ years of experience building production iOS and Android apps — Web3, real-time systems, payments, and clean architecture."
+  >
+  <meta name="author" content="Hafeez Khan">
+  <meta name="application-name" content="Hafeez Khan Portfolio">
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  >
+
+  <link rel="canonical" href="https://hafeezkhan.dev/">
+  <link rel="alternate" hreflang="en" href="https://hafeezkhan.dev/">
+
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Hafeez Khan">
+  <meta property="og:title" content="Hafeez Khan — Senior Flutter Developer">
+  <meta
+    property="og:description"
+    content="Production Flutter apps for iOS and Android — Web3, real-time systems, payments, and team leadership."
+  >
+  <meta property="og:url" content="https://hafeezkhan.dev/">
+  <meta property="og:image" content="https://hafeezkhan.dev/preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hafeez Khan — Senior Flutter Developer">
+  <meta
+    name="twitter:description"
+    content="Production Flutter apps for iOS and Android — from polished UI to Web3 and real-time systems."
+  >
+
+  <style>
+    :root {
+      --bg: #0D1117;
+      --bg-alt: #131A24;
+      --surface: #1A2230;
+      --surface-2: #232E40;
+      --text: #F8FAFC;
+      --muted: #94A3B8;
+      --accent: #4DA3FF;
+      --accent-bright: #74D8FF;
+      --secondary: #5B6EE1;
+      --border: rgba(255, 255, 255, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      background: var(--bg);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    #web-loader {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #0D1117;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .loader-aurora {
+      position: absolute;
+      inset: -20%;
+      background:
+        radial-gradient(38% 30% at 22% 20%, rgba(77, 163, 255, 0.15), transparent 60%),
+        radial-gradient(42% 34% at 78% 75%, rgba(91, 110, 225, 0.12), transparent 60%);
+      filter: blur(40px);
+      animation: aurora-drift 15s ease-in-out infinite alternate;
+    }
+
+    @keyframes aurora-drift {
+      0%   { transform: translate3d(0, 0, 0) scale(1); }
+      100% { transform: translate3d(-3%, 3%, 0) scale(1.1); }
+    }
+
+    .loader-content {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .loader-mark {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 30px;
+    }
+
+    .loader-ring {
+      position: absolute;
+      inset: 0;
+      border: 2px solid rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+    }
+
+    .loader-progress {
+      position: absolute;
+      inset: 0;
+      border: 2px solid transparent;
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: loader-spin 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+      box-shadow: 0 -4px 10px rgba(77, 163, 255, 0.3);
+    }
+
+    @keyframes loader-spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .loader-initials {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      background: linear-gradient(135deg, #FFF, var(--accent-bright));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .loader-text {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      opacity: 0.8;
+      animation: pulse-text 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse-text {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+
+    #web-loader.loader-exit {
+      animation: loader-fade-out 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    }
+
+    @keyframes loader-fade-out {
+      to { opacity: 0; visibility: hidden; transform: scale(1.05); }
+    }
+
+    ::selection { background: rgba(77, 163, 255, 0.25); color: #FFF; }
+  </style>
+
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
+</head>
+
+<body>
+  <div id="web-loader">
+    <div class="loader-aurora"></div>
+    <div class="loader-content">
+      <div class="loader-mark">
+        <div class="loader-ring"></div>
+        <div class="loader-progress"></div>
+        <div class="loader-initials">HK</div>
+      </div>
+      <div class="loader-text">Loading</div>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var loader = document.getElementById('web-loader');
+      setTimeout(function () {
+        if (!loader) return;
+        loader.classList.add('loader-exit');
+        setTimeout(function () { loader.remove(); }, 600);
+      }, 300);
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
