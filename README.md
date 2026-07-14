@@ -58,7 +58,7 @@ Built with Flutter Web using a modern dark UI, smooth animations, responsive lay
 ## Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/MuhammadHafeezKhan/hafeez-portfolio
 ```
 
 ## Navigate to the project
